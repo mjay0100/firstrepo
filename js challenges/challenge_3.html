@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html lang='en'>
+   <head>
+      <title> Challenge: Change a Webpage Color</title>
+      <style> 
+          .click{ 
+              display: flex;  
+              position: absolute; 
+              top: 40%; 
+              left:40%; 
+            } 
+      </style>
+      <script> 
+          function changecolor(color){ 
+            document.body.style.background = color; 
+           } 
+      </script> 
+   </head>
+   <body>
+      <div class="click"> 
+            <button type="button" onclick="changecolor('red');">Click Me</button> 
+      </div>
+   </body>
+</html>
